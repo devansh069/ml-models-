@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# IGNORE the heavy experimental folders entirely
+models/nlp-review-rating-prediction/
+models/Ratings-Prediction-from-Reviews/
+
+# DO NOT ignore .pkl files in the root (this ensures your model is uploaded)
+!logistic_regression_model.pkl
+
+# Ignore raw datasets
+data/
+*.csv
